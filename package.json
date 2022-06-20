@@ -4,7 +4,8 @@
   "description": "Node.js Demo for JWT Authentication with PostgreSQL",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "node js",
@@ -19,8 +20,10 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
     "pg": "^7.17.1",
     "pg-hstore": "^2.3.3"
   },
